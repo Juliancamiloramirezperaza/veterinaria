@@ -1,0 +1,290 @@
+body{
+background: #021C1E
+
+}
+.titulos{
+  font-size: 2em;
+  font-family: 'lobster',cursive;
+  color:#126EFC;
+}
+header{
+width: 1271px;
+height: 180px;
+background: #004445;
+margin: 30px;
+border: 5px color:black;
+padding: 30px;
+left: 200px;
+border-radius:red ;
+margin: red;
+
+
+
+}
+#logo{
+position: absolute;
+top: 59px;
+left: 595px;
+width: 70px;
+height: 90px;
+background: #004445;
+transition: all 1.2s;
+}
+img {
+width: 200px;
+height: 200px;
+}
+div:hover > img {
+width: 1000px
+position:relative;
+top: 0px;
+left: 0px;
+outline: 2px solid blue
+}
+#caja{
+width: 200px;
+height: 200px;
+background: #021C1E;
+
+
+
+}
+nav{
+position: absolute;
+margin:auto ;
+width: 900px;
+height: 70px;
+left: 200px;
+}
+.botones{
+width: 211px;
+height: 47px;
+background: #5C0B91;
+
+float: left;
+font-family:'kaushan scipt', cursive;
+color: #6FB98F;
+text-align: center;
+
+right:300px ;
+}
+.botones:hover{
+background: #34675C;
+ }
+ .botones:active{
+ background: #7DA3A1;
+   }  
+ul li {
+width:360 ;
+height:195 ;
+float: left;
+}
+
+.grupo{
+width: 0 px;
+height: 1px;
+background: #021C1E;
+padding: 0px;
+margin: -37px;
+border: white;
+color: yellow;
+}
+#superior{  
+position:relative;
+margin:10px auto;
+width:1003px;
+height:1089px;
+   }
+   #superior ul{
+    width:1010px ;
+    height: 192px;
+
+   }
+   #superior ul li {
+    float: left;
+    top: 89px;
+    width: 991px;
+    height: 366px;
+    margin-right: 10px;
+    text-align: center;
+
+   }
+   #superior ul li img
+   {
+    border-radius: 50%;
+    height: 180px;
+
+
+   }
+   #superior ul li h1{
+    font-family: 'tahoma',cursive;
+    font-size: 12px;
+   }
+   #superior ul li p{
+    font-size: 20px;
+    margin: 10px;
+    top: 20px;
+
+      }
+h3{
+      color:white;
+      font-size: 48px;
+      text-align: center;
+      position: absolute;
+      top: 60%;
+      left: 53%;
+      transform: translateX(-50%) translateY(-50%) ;
+      }
+
+h2{
+  color:#682389;
+  font-family:'Shantell Sans', cursive;
+
+
+
+
+ }
+h4{
+color: #BAA4C4;
+font-size: 30px;
+right: 783px;
+position: absolute;
+top: 121px;
+ 
+}
+h1{
+  font-size: 30px;
+  right: 740px;
+  position: absolute;
+}
+.redes{
+position: absolute;
+top: 100px;
+width: 12px;
+height: 22px;
+border-radius: 100%;
+}
+#icono1{
+position: absolute;
+top: 75px;
+left: 1205px;
+width: 70px;
+height: 90px;
+
+
+}
+#icono2{
+position: absolute;
+top: 75px;
+left: 1059px;
+width: 70px;
+height: 90px;
+
+}
+#icono3{
+position: absolute;
+top: 75px;
+left: 915px;
+width: 70px;
+height: 90px;
+
+}
+img  {
+width:130px ;
+height:131px;
+transition: all 1.2s;
+}
+header:hover > img{
+width: 100px,
+position:relative;
+top: 0px;
+left: 0px;
+outline: 2px #5E0E82;
+
+}
+aside#derecha{
+    position: absolute;
+    left: 1180px;
+    top:478px ;
+    width: 226px;
+    height: 453px;
+    border: red;
+
+   }
+   aside #derecha input [type="submit"]{
+    width: 400px;
+    background:#5E0E82;
+    padding: 30PX;
+    margin: auto;
+    margin-top: 100px;
+    border-radius:4px
+    font-family:'calibri';
+    color: white;
+   }
+input {
+width: 90%;
+background: blue;
+padding: 10px;
+border-radius: 0px;
+margin-bottom: 90px,
+border: 4px black;
+font-family: 'calibri'
+font-size:18px;
+
+}
+label{
+color: #5E0E82;
+width: 40px;
+background: white;
+padding: 10px;
+border-radius: 4px;
+}
+h6{
+background:green;
+color:white;
+font-size: 30px
+
+}
+.type text{
+color: red;
+}
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 15px;
+  background-color: #004445;
+  padding: 20px;
+  height: 403px;
+  width: 180px;
+}
+#div form{
+  background-color: red;
+}
+font{
+  width:90px;
+}
+</style>
